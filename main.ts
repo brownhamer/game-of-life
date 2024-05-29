@@ -1,11 +1,12 @@
 radio.onReceivedNumber(function (receivedNumber) {
     receivedNumber = receivedNumber
 })
+let halfSecond = 500000
 let myNumber = randint(0, 9)
 let receivedNumber = -1
 radio.setGroup(1)
 loops.everyInterval(1000, function () {
-    control.waitMicros(randint(1, 123))
+    control.waitMicros(randint(0, halfSecond))
     if (receivedNumber == myNumber) {
         pins.analogWritePin(AnalogPin.P13, 0)
         pins.analogWritePin(AnalogPin.P14, 1023)
