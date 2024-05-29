@@ -1,3 +1,6 @@
+# Conway's Game of Life
+
+Based on [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) this project is used as introduction to learn about programmig using a [micro:bit](https://mmicrobit.org/) computer with a [BYOR](https://byor.nl/) extension. Combined they are used to emulate the 'evolution' of living organisms using various means of interaction and response.
 
 > Open this page at [https://brownhamer.github.io/game-of-life/](https://brownhamer.github.io/game-of-life/)
 
